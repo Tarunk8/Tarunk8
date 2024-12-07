@@ -1,5 +1,5 @@
 #!/bin/bash
-while true; do
-        echo "Run job at $(date)" >> /tmp/sleep.log
-       sleep 10
-      done
+for i in 1 2 3 4 5 6 7 8 9
+do
+echo " sl no is $i " > /tmp/for_loop_output.txt
+done
